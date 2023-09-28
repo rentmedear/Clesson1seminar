@@ -1,0 +1,11 @@
+﻿Console.Write("Введите первое число: ");
+int fnumber = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int snumber = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите третье число: ");
+int tnumber = Convert.ToInt32(Console.ReadLine());
+int max = 0;
+if (fnumber>max) max=fnumber;
+if (snumber>max) max=snumber;
+if (tnumber>max) max=tnumber;
+Console.WriteLine(max);

@@ -11,4 +11,3 @@ else
 {
     Console.WriteLine($"max-> {snumber}");
 }
-
